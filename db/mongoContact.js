@@ -4,6 +4,7 @@ main().catch(err => console.log(err));
 
 async function main() {
 
-  await mongoose.connect(`mongodb+srv://${config.userDB}:${config.passDB}@sary-abadi.jeourwi.mongodb.net/StayEase`);
+
+  await mongoose.connect(`mongodb+srv://${config.userDB}:${config.passDB}@cluster0.dhobuug.mongodb.net/stayEase`);
 
 }
